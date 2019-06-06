@@ -14,6 +14,7 @@
         "clip" : true,
         "codeComponentIdentifier" : ".\/App.tsx_FramerApp",
         "codeComponentProps" : {
+          "background" : "hsl(316, 21%, 73%)",
           "text" : "Hello World"
         },
         "codeOverrideEnabled" : false,
