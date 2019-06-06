@@ -1,8 +1,9 @@
 import * as React from "react"
 import { Frame, addPropertyControls, ControlType } from "framer"
-import { View, Text } from "react-native-web"
+import { View, Text } from "react-native"
 
 class App extends React.Component<{ text: string }> {
+    static defaultProps = { text: "Hello World" }
     render() {
         return (
             <View
@@ -15,7 +16,7 @@ class App extends React.Component<{ text: string }> {
                 }}
             >
                 <View>
-                    <Text color="#ffffff">{this.props.text}</Text>
+                    <Text style={{ color: "#ffffff" }}>{this.props.text}</Text>
                 </View>
             </View>
         )
@@ -31,7 +32,7 @@ export const FramerApp: React.FC<{ text: string }> = props => (
 addPropertyControls(FramerApp, {
     text: {
         type: ControlType.String,
-        defaultValue: "Hello World",
+        defaultValue: App.defaultProps.text,
         title: "Text",
     },
 })
