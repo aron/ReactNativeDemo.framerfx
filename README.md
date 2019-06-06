@@ -4,6 +4,8 @@ Framer React Native Demo
 Shows using a basic frame with [React Native
 Web](https://github.com/necolas/react-native-web/).
 
+» [Download ReactNativeDemo.framerfx.zip](https://github.com/aron/ReactNativeDemo.framerfx/releases/download/1.0.0/ReactNativeDemo.framerfx.zip)
+
 Not suitable for production use until the following issues are fixed:
 
 1) Framer bundles the "react-dom" module without the
