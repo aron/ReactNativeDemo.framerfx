@@ -79,3 +79,7 @@ addPropertyControls(FramerApp, {
 When previewed this will give you a very basic React Native component
 containing a green frame and the text "Hello World" with custom controls that
 allow configuration of the text and background color.
+
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/47144/59023702-3c2b3c00-8848-11e9-9cf0-8fa9a2435455.png">
+
+
