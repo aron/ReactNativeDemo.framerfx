@@ -1,0 +1,21 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "80249885-0a0e-4a16-a2e4-da35a9de79a2"
+	},
+	"author": "Aron Carroll",
+	"dependencies": {
+		"@types/react-native": "^0.57.60",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-native-web": "^0.11.4"
+	}
+}
